@@ -49,6 +49,18 @@ window.CATALEG_JOCS = [
     estat: 'disponible',
   },
   {
+    id: 'catalammings',
+    nom: 'Catalemmings',
+    categoria: 'Plataformes',
+    etiqueta: 'Retro · Humor · Satira · Nivells',
+    descripcio: 'Catalemmings és un joc web inspirat en el clàssic Lemmings. Els catalemmings surten de casa i caminen sense parar: tu tries qui fa que perquè arribin a l\'estelada. Tens 10 habilitats per fer-ho: fer ponts, aixecar castells, menjar calçots per baixar planant, picar cassoles, llançar pastissos de nata… Pel camí trobaràs antiavalots, polítics que dicten lleis, tribunals amb maça, escopetes de pilotes de goma i un rei assegut a la trona. Aquí ningú no s\'hi fa mal: qui no se\'n surt torna a casa enfadat. Quan n\'arriben prou, la bandera espanyola del teulat cau a terra. Inclou 11 nivells i un editor per dissenyar-ne de propis i compartir-los. Fet amb HTML, CSS i JavaScript.',
+    url: 'https://qmrcat.github.io/Catalammings/',
+    repositori: 'https://github.com/qmrcat/Catalammings',
+    icona: 'joc',
+    color: 'menta',
+    estat: 'disponible',
+  },
+  {
     id: 'fletxes-lliures',
     nom: 'Fletxes Lliures',
     categoria: 'Lògica',
