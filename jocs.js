@@ -61,6 +61,18 @@ window.CATALEG_JOCS = [
     estat: 'disponible',
   },
   {
+    id: 'terra-de-comtes',
+    nom: 'Terra de Comtes',
+    categoria: 'Majories',
+    etiqueta: 'estratègia · Majories · Medieval',
+    descripcio: 'Quatre cases es disputen els territoris que van del Rosselló a Alacant, amb Mallorca, Menorca i les Pitiüses. A cada partida, 11 dels 19 territoris són castells majors; la resta són castells menors, amb una fitxa amagada. Tires tres daus: dos diuen on, el tercer quants. Quan tothom ha desplegat les seves hosts, esclata la guerra.',
+    url: 'https://qmrcat.github.io/terra-de-comtes/',
+    repositori: 'https://github.com/qmrcat/terra-de-comtes',
+    icona: 'fletxes',
+    color: 'rosa',
+    estat: 'disponible',
+  },
+  {
     id: 'fletxes-lliures',
     nom: 'Fletxes Lliures',
     categoria: 'Lògica',
