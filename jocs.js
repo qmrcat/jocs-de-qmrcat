@@ -6,9 +6,11 @@
  * L'ordre dels objectes és l'ordre de les fitxes.
  * Disponible: estat: 'disponible', amb un enllaç de joc HTTPS vàlid.
  * Pendent: estat: 'pendent', amb url: null i un missatge explicatiu.
- * Icones: vila, fletxes, numeros, embus, cartes, sudoku, joc.
- * Colors: menta, blau, lila, taronja, rosa, groc.
+ * Icones: vila, fletxes, numeros, embus, cartes, sudoku, blocs, castell, daus, trencaclosques, lletres, escacs, espasa, corona, bandera, mapa, coet, fantasma, pilota, diana, rellotge, bombeta, musica, arbre, estrella, cor, trofeu, joc.
+ * Colors: menta, blau, lila, taronja, rosa, groc, vermell, verd, turquesa, indi, magenta, llima, plata.
  * Imatge opcional: imatge: 'assets/el-meu-joc.webp'.
+ * Joc destacat (opcional): destacat: 'si'. La fitxa passa al davant i ocupa tota l'amplada.
+ * Joc nou (opcional): nou: 'si'. Mostra la cinta «Nou joc» a la cantonada de la fitxa.
  * No cal editar index.html, styles.css ni app.js per afegir fitxes.
  */
 window.CATALEG_JOCS = [
@@ -23,6 +25,7 @@ window.CATALEG_JOCS = [
     icona: 'vila',
     color: 'menta',
     estat: 'disponible',
+    imatge: 'assets/imatges/vila-mediterrania.jpg', 
   },
   {
     id: 'treu-l-embus',
@@ -35,6 +38,7 @@ window.CATALEG_JOCS = [
     icona: 'embus',
     color: 'taronja',
     estat: 'disponible',
+    imatge: 'assets/imatges/treu-l-embus.jpg', 
   },
   {
     id: 'blocs-del-temple',
@@ -47,6 +51,8 @@ window.CATALEG_JOCS = [
     icona: 'blocs',
     color: 'lila',
     estat: 'disponible',
+    nou: 'si',
+    imatge: 'assets/imatges/blocs-del-temple.jpg', 
   },
   {
     id: 'catalemmings',
@@ -59,6 +65,8 @@ window.CATALEG_JOCS = [
     icona: 'joc',
     color: 'menta',
     estat: 'disponible',
+    nou: 'si',
+    imatge: 'assets/imatges/catalemmings.jpg', 
   },
   {
     id: 'terra-de-comtes',
@@ -68,9 +76,14 @@ window.CATALEG_JOCS = [
     descripcio: 'Quatre cases es disputen els territoris que van del Rosselló a Alacant, amb Mallorca, Menorca i les Pitiüses. A cada partida, 11 dels 19 territoris són castells majors; la resta són castells menors, amb una fitxa amagada. Tires tres daus: dos diuen on, el tercer quants. Quan tothom ha desplegat les seves hosts, esclata la guerra.',
     url: 'https://qmrcat.github.io/terra-de-comtes/',
     repositori: 'https://github.com/qmrcat/terra-de-comtes',
-    icona: 'fletxes',
-    color: 'rosa',
+    icona: 'mapa',
+    color: 'turquesa',
     estat: 'disponible',
+    destacat: 'si',
+    nou: 'si',
+    nou: 'si',
+    destacat: 'si',
+    imatge: 'assets/imatges/terra-de-comtes.jpg', 
   },
   {
     id: 'fletxes-lliures',
