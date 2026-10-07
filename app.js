@@ -81,10 +81,12 @@
     const number = crea('span', 'card-number', String(index + 1).padStart(2, '0'));
     number.setAttribute('aria-hidden', 'true');
     top.append(labels, number);
-    if (esSi(joc.nou)) {
-      article.classList.add('is-new');
-      const ribbon = crea('span', 'ribbon');
-      ribbon.append(crea('span', '', 'Nou joc'));
+    // Una sola cinta per fitxa: «Nou joc» té prioritat sobre «Nova versió».
+    if (esSi(joc.nou) || esSi(joc.novaVersio)) {
+      const esNou = esSi(joc.nou);
+      article.classList.add(esNou ? 'is-new' : 'is-updated');
+      const ribbon = crea('span', esNou ? 'ribbon' : 'ribbon ribbon-version');
+      ribbon.append(crea('span', '', esNou ? 'Nou joc' : 'Nova versió'));
       article.append(ribbon);
     }
 
@@ -108,7 +110,13 @@
       image.addEventListener('error', () => image.remove(), { once: true });
       article.append(image);
     }
-    article.append(identity, crea('p', 'game-description', joc.descripcio || ''), crea('p', 'game-detail', joc.etiqueta || joc.categoria || 'Joc'));
+    article.append(identity, crea('p', 'game-description', joc.descripcio || ''));
+    if (typeof joc.novetats === 'string' && joc.novetats.trim()) {
+      const news = crea('p', 'game-news');
+      news.append(crea('strong', '', 'Novetats'), ` ${joc.novetats.trim()}`);
+      article.append(news);
+    }
+    article.append(crea('p', 'game-detail', joc.etiqueta || joc.categoria || 'Joc'));
 
     const actions = crea('div', 'card-actions');
     const playUrl = enllacSegur(joc.url);

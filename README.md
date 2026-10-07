@@ -46,6 +46,8 @@ Exemple:
   // imatge: 'assets/el-meu-joc.webp', // Opcional: còpia local d'una captura.
   // destacat: 'si', // Opcional: joc destacat.
   // nou: 'si', // Opcional: cinta «Nou joc».
+  // novaVersio: 'si', // Opcional: cinta «Nova versió».
+  // novetats: 'Nous nivells i correccions.', // Opcional: text de novetats.
 },
 ```
 
@@ -55,6 +57,8 @@ La fitxa, el número i el recompte s'actualitzen automàticament. Per canviar l'
 - **Colors:** `menta`, `blau`, `lila`, `taronja`, `rosa`, `groc`, `vermell`, `verd`, `turquesa`, `indi`, `magenta`, `llima`, `plata`.
 - **Joc destacat:** amb `destacat: 'si'`, la fitxa passa al davant del catàleg, ocupa tota l'amplada i mostra l'etiqueta «Joc destacat». Per treure'l, elimina el camp o posa-hi `'no'`.
 - **Joc nou:** amb `nou: 'si'`, la fitxa mostra una cinta «Nou joc» a la cantonada superior dreta.
+- **Nova versió:** amb `novaVersio: 'si'`, la fitxa mostra una cinta blanca «Nova versió» a la mateixa cantonada. Si el joc també té `nou: 'si'`, només es mostra «Nou joc».
+- **Novetats:** amb `novetats: 'Text breu'`, apareix un requadre «Novetats» sota la descripció. És independent de la cinta: es mostra sempre que hi hagi text.
 - **Imatges opcionals:** afegeix una captura pròpia a `assets/` i indica'n el camí relatiu. Si la imatge no es pot carregar, s'amaga i es conserva la fitxa.
 
 Si vols mantenir també l'alternativa sense JavaScript al dia, afegeix el nou enllaç dins del bloc `<noscript>` d'`index.html`.

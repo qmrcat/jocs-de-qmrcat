@@ -11,6 +11,8 @@
  * Imatge opcional: imatge: 'assets/el-meu-joc.webp'.
  * Joc destacat (opcional): destacat: 'si'. La fitxa passa al davant i ocupa tota l'amplada.
  * Joc nou (opcional): nou: 'si'. Mostra la cinta «Nou joc» a la cantonada de la fitxa.
+ * Nova versió (opcional): novaVersio: 'si'. Mostra la cinta blanca «Nova versió» (si també hi ha nou: 'si', només surt «Nou joc»).
+ * Novetats (opcional): novetats: 'Text breu'. Mostra un requadre «Novetats» sota la descripció.
  * No cal editar index.html, styles.css ni app.js per afegir fitxes.
  */
 window.CATALEG_JOCS = [
@@ -26,6 +28,8 @@ window.CATALEG_JOCS = [
     color: 'menta',
     estat: 'disponible',
     imatge: 'assets/imatges/vila-mediterrania.jpg', 
+    novaVersio: 'si', // Opcional: cinta «Nova versió».
+    novetats: 'He afegit noves músiques més fresques i amb més ritme.', // Opcional: text de novetats.
   },
   {
     id: 'treu-l-embus',
@@ -96,6 +100,7 @@ window.CATALEG_JOCS = [
     icona: 'fletxes',
     color: 'blau',
     estat: 'disponible',
+    imatge: 'assets/imatges/fletxes-lliures.jpg', 
   },
   {
     id: 'parelles-de-deu',
@@ -108,8 +113,9 @@ window.CATALEG_JOCS = [
     icona: 'numeros',
     color: 'lila',
     estat: 'disponible',
+    imatge: 'assets/imatges/parelles-de-deu.jpg', 
   },
-
+  
   {
     id: 'zona-botifarra',
     nom: 'Zona Botifarra',
@@ -121,6 +127,7 @@ window.CATALEG_JOCS = [
     icona: 'cartes',
     color: 'rosa',
     estat: 'disponible',
+    imatge: 'assets/imatges/zona-botifarra.jpg', 
   },
   {
     id: 'sudoku-sudo',
@@ -133,5 +140,6 @@ window.CATALEG_JOCS = [
     icona: 'sudoku',
     color: 'groc',
     estat: 'disponible',
+    imatge: 'assets/imatges/sudoku-sudo.jpg', 
   },
 ];
