@@ -55,7 +55,6 @@ window.CATALEG_JOCS = [
     icona: 'blocs',
     color: 'lila',
     estat: 'disponible',
-    nou: 'si',
     imatge: 'assets/imatges/blocs-del-temple.jpg', 
   },
   {
@@ -85,6 +84,20 @@ window.CATALEG_JOCS = [
     estat: 'disponible',
     nou: 'si',
     imatge: 'assets/imatges/l-espia-esmunyedís.png', 
+  },
+    {
+    id: 'tripletisme',
+    nom: 'Tripletisme',
+    categoria: 'trencaclosques',
+    etiqueta: 'trencaclosques · lògica',
+    descripcio: 'Tripletisme és un tres en ratlla magnètic contra un bot, en un tauler de 6×6. Cada fitxa, positiva o negativa, atrau o empeny les veïnes i les pot expulsar per la vora. Guanya qui alinea primer tres fitxes, o qui col·loca les vuit.',
+    url: 'https://qmrcat.github.io/Tripletisme/',
+    repositori: 'https://github.com/qmrcat/Tripletisme',
+    icona: 'joc',
+    color: 'plata',
+    estat: 'disponible',
+    nou: 'si',
+    imatge: 'assets/imatges/tripletisme.jpg', 
   },
   {
     id: 'terra-de-comtes',
