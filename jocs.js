@@ -73,6 +73,19 @@ window.CATALEG_JOCS = [
     imatge: 'assets/imatges/catalemmings.jpg', 
   },
   {
+    id: 'l-espia-esmunyedís',
+    nom: 'L\'Espia Esmunyedís',
+    categoria: 'trencaclosques',
+    etiqueta: 'trencaclosques · lògica',
+    descripcio: 'L\’Espia Esmunyedís és un trencaclosques de lògica on has d’intercanviar i girar fletxes perquè cadascuna apunti a una peça blanca del costat, sense assenyalar mai cap espia ni cap altra fletxa. Cada nivell afegeix un espia nou i sempre té solució.',
+    url: 'https://qmrcat.github.io/l-espia-esmunyedís/',
+    repositori: 'https://github.com/qmrcat/l-espia-esmunyedís',
+    icona: 'espia',
+    color: 'taronja',
+    estat: 'disponible',
+    imatge: 'assets/imatges/l-espia-esmunyedís.png', 
+  },
+  {
     id: 'terra-de-comtes',
     nom: 'Terra de Comtes',
     categoria: 'Majories',
@@ -143,3 +156,4 @@ window.CATALEG_JOCS = [
     imatge: 'assets/imatges/sudoku-sudo.jpg', 
   },
 ];
+
