@@ -83,6 +83,7 @@ window.CATALEG_JOCS = [
     icona: 'espia',
     color: 'taronja',
     estat: 'disponible',
+    nou: 'si',
     imatge: 'assets/imatges/l-espia-esmunyedís.png', 
   },
   {
@@ -97,7 +98,6 @@ window.CATALEG_JOCS = [
     color: 'turquesa',
     estat: 'disponible',
     destacat: 'si',
-    nou: 'si',
     nou: 'si',
     destacat: 'si',
     imatge: 'assets/imatges/terra-de-comtes.jpg', 
