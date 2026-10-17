@@ -31,7 +31,7 @@
     estrella: '<path d="m12 3 2.8 5.6 6.2.9-4.5 4.4 1.1 6.1-5.6-2.9L6.4 20l1.1-6.1L3 9.5l6.2-.9L12 3Z"/>',
     cor: '<path d="M12 20s-8-4.6-8-10.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 2.5C20 15.4 12 20 12 20Z"/>',
     trofeu: '<path d="M8 4h8v5a4 4 0 0 1-8 0V4Zm0 2H4v1a3 3 0 0 0 4 2.8M16 6h4v1a3 3 0 0 1-4 2.8M12 13v4m-4 4h8m-6-4h4"/>',
-    espia: '<path d="M12 2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5Z"/><path d="M8 14s1 2 4 2 4-2 4-2"/>',
+    espia: '<path d="M4 9h16M6 9l1-5h10l1 5"/><path d="M7 9v5a5 5 0 0 0 10 0V9"/><path d="M7 11h4v3H8a1 1 0 0 1-1-1v-2Zm6 0h4v2a1 1 0 0 1-1 1h-3v-3Zm-2 1h2"/>',
   };
   const COLORS = new Set(['menta', 'blau', 'lila', 'taronja', 'rosa', 'groc', 'vermell', 'verd', 'turquesa', 'indi', 'magenta', 'llima', 'plata']);
   const grid = document.querySelector('#games-grid');
