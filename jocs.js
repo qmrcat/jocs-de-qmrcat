@@ -55,6 +55,7 @@ window.CATALEG_JOCS = [
     icona: 'rencaclosques',
     color: 'turquesa',
     estat: 'disponible',
+    nou: 'si',
     imatge: 'assets/imatges/fusio-2048.jpg', 
   },
   {
@@ -81,7 +82,7 @@ window.CATALEG_JOCS = [
     icona: 'joc',
     color: 'menta',
     estat: 'disponible',
-    nou: 'si',
+    nou: 'no',
     imatge: 'assets/imatges/catalemmings.jpg', 
   },
   {
